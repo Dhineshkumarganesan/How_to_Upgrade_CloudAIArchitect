@@ -1,0 +1,90 @@
+# Cloud AI Architect Roadmap - AWS & Azure
+
+## 🚀 AWS AI Architecture Blueprints
+
+### 1. **LLM & Generative AI Infrastructure**
+- **[Generative AI on AWS](https://aws.amazon.com/architecture/generative-ai/)**
+- **[AWS Generative AI CDK Constructs Library](https://aws.amazon.com/blogs/machine-learning/build-generative-ai-applications-with-amazon-bedrock-using-the-aws-cdk/)**
+- **[RAG with Amazon Bedrock and Aurora](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/build-a-rag-based-application-with-an-llm-and-amazon-aurora.html)**
+
+### 2. **MLOps & AI Platform**
+- **[MLOps on AWS](https://aws.amazon.com/architecture/mlops/)**
+- **[Secure Enterprise ML Platform](https://aws.amazon.com/blogs/machine-learning/build-a-secure-enterprise-machine-learning-platform-on-aws/)**
+- **[SageMaker MLOps Templates](https://github.com/aws-samples/sagemaker-mlops)**
+
+### 3. **AI on Kubernetes (EKS)**
+- **[SageMaker Operators for K8s](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-operators.html)**
+- **[GPU Workloads on EKS](https://docs.aws.amazon.com/eks/latest/userguide/gpu-ami.html)**
+- **[KServe for LLMs on EKS](https://aws.amazon.com/blogs/machine-learning/serve-llms-on-amazon-eks-with-kserve-and-huggingface/)**
+
+### 4. **Advanced AI Workloads**
+- **[AWS Neuron for Inferentia/Trainium](https://docs.aws.amazon.com/neuron/latest/userguide/what-is-neuron.html)**
+- **[Triton on SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/model-server-triton.html)**
+- **[Distributed Training on SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training.html)**
+
+### 5. **Security & Governance**
+- **[ML Well-Architected Lens](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/welcome.html)**
+- **[Generative AI Lens](https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/welcome.html)**
+- **[Responsible AI on AWS](https://aws.amazon.com/machine-learning/responsible-ai/)**
+
+## ☁️ **Azure AI Architecture Blueprints**
+
+### 1. **LLM & Generative AI**
+- **[Azure AI Services Documentation](https://learn.microsoft.com/en-us/azure/ai-services/)**
+- **[Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/)**
+- **[RAG with Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)**
+
+### 2. **MLOps on Azure**
+- **[MLOps on Azure ML](https://learn.microsoft.com/en-us/azure/machine-learning/concept-mlops-architecture)**
+- **[Enterprise MLOps with Azure ML](https://learn.microsoft.com/en-us/azure/architecture/guide/ai/aml-enterprise)**
+- **[CI/CD for ML Models](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-ci-cd-machine-learning)**
+
+### 3. **AI on Kubernetes (AKS)**
+- **[ML on AKS](https://learn.microsoft.com/en-us/azure/aks/use-machine-learning-models)**
+- **[Deploy ML Models to AKS](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service)**
+- **[GPU-enabled AKS Clusters](https://learn.microsoft.com/en-us/azure/aks/gpu-cluster)**
+
+### 4. **Advanced Workloads**
+- **[Triton on Azure](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-with-triton)**
+- **[Distributed Training Overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-distributed-training)**
+- **[DeepSpeed on Azure ML](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-train-ml-models-deepspeed)**
+
+### 5. **Security & Governance**
+- **[Well-Architected for AI/ML](https://learn.microsoft.com/en-us/azure/well-architected/ai-machine-learning/)**
+- **[Security in Azure ML](https://learn.microsoft.com/en-us/azure/machine-learning/concept-security)**
+- **[Responsible AI Dashboard](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-responsible-ai-dashboard)**
+
+## 🎯 **Learning Path**
+
+### **Week 1-2: Foundation**
+1. Deploy [AWS RAG Sample](https://github.com/aws-samples/rag-using-bedrock-and-opensearch) OR
+2. Deploy [Azure RAG Sample](https://github.com/Azure-Samples/azure-search-openai-demo)
+
+### **Week 3-4: MLOps**
+1. Implement [AWS SageMaker MLOps](https://github.com/aws-samples/sagemaker-mlops) OR
+2. Implement [Azure MLOps v2](https://github.com/Azure/mlops-v2)
+
+### **Week 5-6: Production**
+1. Setup [Triton on EKS/AKS](#)
+2. Implement [Well-Architected Checklists](#)
+
+## 📁 **GitHub Repositories**
+
+### **AWS**
+- [aws-samples/amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples)
+- [aws-samples/llm-applications](https://github.com/aws-samples/llm-applications)
+- [awslabs/generative-ai-cdk-constructs](https://github.com/awslabs/generative-ai-cdk-constructs)
+
+### **Azure**
+- [Azure/azureml-examples](https://github.com/Azure/azureml-examples)
+- [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo)
+- [Azure/mlops-v2](https://github.com/Azure/mlops-v2)
+
+## 📚 **Certifications**
+- **AWS**: ML Specialty → Solutions Architect Pro → DevOps Pro
+- **Azure**: AI Engineer (AI-102) → DevOps (AZ-400) → Solutions Architect (AZ-305)
+
+---
+
+*Last Updated: $(date)*  
+*Pro Tip: Bookmark AWS Architecture Center & Azure Architecture Center*
