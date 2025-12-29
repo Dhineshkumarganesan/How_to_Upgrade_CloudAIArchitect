@@ -1,7 +1,10 @@
 # HowtoupgradetoAIArchitect
 Upgrade to AI Architect role using the 3 crucial cloud platforms
 
-What is the best way to become an Cloud AI architect at a faster pace ? what is very much required to transform to this role ?
+**What is the best way to become an Cloud AI architect at a faster pace ? what is very much required to transform to this role ?**
+
+
+
 Excellent question. This is about speed and precision, not just gradual upskilling. Here’s a tactical roadmap to transform into a Cloud AI Architect at an accelerated pace.
 
 1. Mindset Shift First
