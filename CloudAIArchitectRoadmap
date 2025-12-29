@@ -2,6 +2,7 @@
 
 ## 🚀 AWS AI Architecture Blueprints
 
+
 ### 1. **LLM & Generative AI Infrastructure**
 - **[Generative AI on AWS](https://aws.amazon.com/architecture/generative-ai/)**
 - **[AWS Generative AI CDK Constructs Library](https://aws.amazon.com/blogs/machine-learning/build-generative-ai-applications-with-amazon-bedrock-using-the-aws-cdk/)**
