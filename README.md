@@ -53,6 +53,8 @@ Design an MLOps pipeline that trains a model on cloud, deploys, monitors, and re
 
 Critical: Deploy using Infrastructure as Code (Terraform or CloudFormation/CDK). This is non-negotiable.
 &nbsp;&nbsp;
+&nbsp;&nbsp;
+
 ****Phase 3: Architectural Depth (Months 9-12)**
 
 **Goal: Move from “how to build” to “how to design for scale, cost, security.”****
