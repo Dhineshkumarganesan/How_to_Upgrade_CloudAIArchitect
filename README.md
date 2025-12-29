@@ -11,8 +11,11 @@ Excellent question. This is about speed and precision, not just gradual upskilli
 You’re not just “adding AI” to cloud skills. You’re merging two disciplines into a new role that commands premium value. Think: AI Infrastructure Engineer meets Solutions Architect.
 
 **2. The Accelerated Learning Path (12-18 months)**
+
+
 **Phase 1: Foundation (Months 1-3)**
-Goal: Cement cloud and AI fundamentals in parallel, not sequentially.
+
+**Goal: Cement cloud and AI fundamentals in parallel, not sequentially.**
 
 Cloud: Pick one major cloud provider (AWS is market leader, but Azure has strong enterprise/AI integration, GCP is born for data/AI).
 
