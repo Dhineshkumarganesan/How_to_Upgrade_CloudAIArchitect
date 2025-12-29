@@ -4,145 +4,93 @@ Do you have any  official technical blue prints on each of these different secti
 
 Excellent question. Yes, Azure provides comprehensive, production-grade technical blueprints for exactly these scenarios. Here are the official Azure architecture blueprints, reference implementations, and learning paths you need.
 
-✅ Verified, Working Azure AI Architecture Links
-1. LLM & Generative AI on Azure
-Official Hub Pages:
-[Azure AI services documentation](https://learn.microsoft.com/en-us/azure/ai-services/)
+# Cloud AI Architect Roadmap - AWS & Azure
 
-[Azure AI services documentation] (https://learn.microsoft.com/en-us/azure/ai-services/) - Central hub
+## 🚀 AWS AI Architecture Blueprints
 
-Azure OpenAI Service documentation - All OpenAI on Azure content
+### 1. **LLM & Generative AI Infrastructure**
+- **[Generative AI on AWS](https://aws.amazon.com/architecture/generative-ai/)**
+- **[AWS Generative AI CDK Constructs Library](https://aws.amazon.com/blogs/machine-learning/build-generative-ai-applications-with-amazon-bedrock-using-the-aws-cdk/)**
+- **[RAG with Amazon Bedrock and Aurora](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/build-a-rag-based-application-with-an-llm-and-amazon-aurora.html)**
 
-Azure AI Studio - The new unified AI platform
+### 2. **MLOps & AI Platform**
+- **[MLOps on AWS](https://aws.amazon.com/architecture/mlops/)**
+- **[Secure Enterprise ML Platform](https://aws.amazon.com/blogs/machine-learning/build-a-secure-enterprise-machine-learning-platform-on-aws/)**
+- **[SageMaker MLOps Templates](https://github.com/aws-samples/sagemaker-mlops)**
 
-Working Architecture Guides:
-Build a RAG solution with Azure AI Search and Azure OpenAI - Updated RAG guidance
+### 3. **AI on Kubernetes (EKS)**
+- **[SageMaker Operators for K8s](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-operators.html)**
+- **[GPU Workloads on EKS](https://docs.aws.amazon.com/eks/latest/userguide/gpu-ami.html)**
+- **[KServe for LLMs on EKS](https://aws.amazon.com/blogs/machine-learning/serve-llms-on-amazon-eks-with-kserve-and-huggingface/)**
 
-Vector search with Azure AI Search
+### 4. **Advanced AI Workloads**
+- **[AWS Neuron for Inferentia/Trainium](https://docs.aws.amazon.com/neuron/latest/userguide/what-is-neuron.html)**
+- **[Triton on SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/model-server-triton.html)**
+- **[Distributed Training on SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training.html)**
 
-Azure OpenAI landing zone considerations - Enterprise deployment
+### 5. **Security & Governance**
+- **[ML Well-Architected Lens](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/welcome.html)**
+- **[Generative AI Lens](https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/welcome.html)**
+- **[Responsible AI on AWS](https://aws.amazon.com/machine-learning/responsible-ai/)**
 
-GitHub Repos (Verified):
-Azure-Samples/azure-search-openai-demo - ACTIVE - The main RAG sample
+## ☁️ **Azure AI Architecture Blueprints**
 
-microsoft/sample-app-aoai-chatGPT - Chat applications
+### 1. **LLM & Generative AI**
+- **[Azure AI Services Documentation](https://learn.microsoft.com/en-us/azure/ai-services/)**
+- **[Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/)**
+- **[RAG with Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)**
 
-Azure/azure-openai-samples - Various patterns
+### 2. **MLOps on Azure**
+- **[MLOps on Azure ML](https://learn.microsoft.com/en-us/azure/machine-learning/concept-mlops-architecture)**
+- **[Enterprise MLOps with Azure ML](https://learn.microsoft.com/en-us/azure/architecture/guide/ai/aml-enterprise)**
+- **[CI/CD for ML Models](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-ci-cd-machine-learning)**
 
-2. MLOps on Azure
-Core Documentation:
-What is MLOps? - MLOps overview
+### 3. **AI on Kubernetes (AKS)**
+- **[ML on AKS](https://learn.microsoft.com/en-us/azure/aks/use-machine-learning-models)**
+- **[Deploy ML Models to AKS](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service)**
+- **[GPU-enabled AKS Clusters](https://learn.microsoft.com/en-us/azure/aks/gpu-cluster)**
 
-MLOps on Azure Machine Learning - Architecture guide
+### 4. **Advanced Workloads**
+- **[Triton on Azure](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-with-triton)**
+- **[Distributed Training Overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-distributed-training)**
+- **[DeepSpeed on Azure ML](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-train-ml-models-deepspeed)**
 
-Reference Implementations:
-Enterprise-grade MLOPs with Azure Machine Learning - WORKING - Complete enterprise blueprint
+### 5. **Security & Governance**
+- **[Well-Architected for AI/ML](https://learn.microsoft.com/en-us/azure/well-architected/ai-machine-learning/)**
+- **[Security in Azure ML](https://learn.microsoft.com/en-us/azure/machine-learning/concept-security)**
+- **[Responsible AI Dashboard](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-responsible-ai-dashboard)**
 
-CI/CD for machine learning models - Pipeline patterns
+## 🎯 **Learning Path**
 
-Safe rollout for ML models - Blue-green deployments
+### **Week 1-2: Foundation**
+1. Deploy [AWS RAG Sample](https://github.com/aws-samples/rag-using-bedrock-and-opensearch) OR
+2. Deploy [Azure RAG Sample](https://github.com/Azure-Samples/azure-search-openai-demo)
 
-GitHub Production Templates:
-Azure/mlops-v2 - ACTIVE - Latest MLOps framework
+### **Week 3-4: MLOps**
+1. Implement [AWS SageMaker MLOps](https://github.com/aws-samples/sagemaker-mlops) OR
+2. Implement [Azure MLOps v2](https://github.com/Azure/mlops-v2)
 
-Azure/azureml-examples - ACTIVE - All official examples
+### **Week 5-6: Production**
+1. Setup [Triton on EKS/AKS](#)
+2. Implement [Well-Architected Checklists](#)
 
-microsoft/MLOpsPython - Classic but still relevant
+## 📁 **GitHub Repositories**
 
-3. AI on Azure Kubernetes (AKS)
-Working Guides:
-Machine learning on Azure Kubernetes Service - WORKING
+### **AWS**
+- [aws-samples/amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples)
+- [aws-samples/llm-applications](https://github.com/aws-samples/llm-applications)
+- [awslabs/generative-ai-cdk-constructs](https://github.com/awslabs/generative-ai-cdk-constructs)
 
-Deploy ML models to AKS - Step-by-step
+### **Azure**
+- [Azure/azureml-examples](https://github.com/Azure/azureml-examples)
+- [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo)
+- [Azure/mlops-v2](https://github.com/Azure/mlops-v2)
 
-GPU-enabled AKS clusters - GPU setup
+## 📚 **Certifications**
+- **AWS**: ML Specialty → Solutions Architect Pro → DevOps Pro
+- **Azure**: AI Engineer (AI-102) → DevOps (AZ-400) → Solutions Architect (AZ-305)
 
-Reference Architectures:
-Kubernetes at scale on Azure - Not AI-specific but foundational
+---
 
-Microservices with AKS - Patterns applicable to AI serving
-
-4. Advanced AI Workloads
-Model Serving & Optimization:
-Triton Inference Server on Azure - WORKING
-
-ONNX Runtime deployment
-
-Distributed training with PyTorch on Azure - WORKING
-
-Distributed Training:
-Distributed training overview - All patterns
-
-DeepSpeed on Azure ML - WORKING
-
-5. Security & Governance
-Well-Architected Framework:
-Azure Well-Architected Framework review for AI and ML - WORKING - Complete checklist
-
-Security in Azure Machine Learning - Security overview
-
-Governance:
-Responsible AI dashboard - WORKING
-
-Data governance for AI - WORKING
-
-6. Cost Management
-Official Guidance:
-Plan and manage costs for Azure Machine Learning - WORKING
-
-Azure pricing calculator - Always use this for estimates
-
-📚 Best Current Learning Paths
-Microsoft Learn Modules (Free, Verified):
-Build AI solutions with Azure Machine Learning - Complete path
-
-Microsoft Azure AI Fundamentals: AI overview - AI-900 prep
-
-Azure Data Scientist Associate - DP-100 prep
-
-Instructor-Led Workshops:
-Azure OpenAI Workshop - Various workshops
-
-Azure Machine Learning workshop - Hands-on labs
-
-🚀 Your Action Plan with Verified Resources
-Week 1-2: Foundation
-Complete the Build AI solutions with Azure Machine Learning learning path
-
-Deploy the Azure-Samples/azure-search-openai-demo
-
-Week 3-4: MLOps
-Implement Azure/mlops-v2 in a test subscription
-
-Study Enterprise-grade MLOPs with Azure Machine Learning
-
-Week 5-6: Productionization
-Deploy a model with Triton on AKS
-
-Implement monitoring from the Well-Architected Framework
-
-🔧 How to Stay Updated
-Bookmark the Azure Updates page:
-https://azure.microsoft.com/en-us/updates/?query=machine%20learning
-
-Follow Azure Blog RSS feeds:
-
-Azure AI Blog: https://techcommunity.microsoft.com/t5/azure-ai-services-blog/bg-p/AzureAIBlog
-
-Azure Architecture Blog: https://techcommunity.microsoft.com/t5/azure-architecture-center-blog/bg-p/AzureArchitectureBlog
-
-Use Azure Portal's "What's New":
-Always check the announcement section in Azure ML studio
-
-💡 Pro Tip: Use These Search Terms
-When searching for Azure AI content, use these exact phrases:
-
-"azure machine learning example scenario"
-
-"azure architecture ai reference"
-
-"site:learn.microsoft.com azure mlops production"
-
-"azure openai enterprise deployment"
-
-The key insight: Microsoft documentation changes frequently. Always start from the main service page (e.g., azure.microsoft.com/en-us/products/machine-learning) and navigate downward, rather than trying to find deep links directly.
+*Last Updated: $(date)*  
+*Pro Tip: Bookmark AWS Architecture Center & Azure Architecture Center*
