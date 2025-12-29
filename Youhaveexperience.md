@@ -1,4 +1,4 @@
-**YOU HAVE EXEPERIENCE OF 22 YEARS RELEVANT TO CLOUD - NOW WHAT IS MISSING TO BECOME CLOUD AI ARCHITECT**
+**YOU HAVE EXEPERIENCE OF 22 YEARS RELEVANT TO CLOUD - NOW **WHAT IS MISSING TO BECOME CLOUD AI ARCHITECT****
 
 I have done AI workloads like Image processing using neural networks, computer vision workloads using nvidia gpus, streaming workloads using ververica flink modules, batch workloads, laid observability platform like prometheus thanos grafana as well as splunk otel agents... also handled Collibra data governance & data quality modules on Kubernetes cluster (both AWS EKS and Azure Kubernetes service). At this stage , what new AI workloads or frameworks that as platform architect i must be aware and upgrade myself so that i equipped to handle all types of AI workloads
 Excellent. You're already well beyond the basics — you're operating at what many would call a Senior Platform/MLOps Engineer level. With your background (GPU workloads, streaming/batch pipelines, K8s, observability, data governance), you have the perfect foundation to architect enterprise-grade AI platforms.
